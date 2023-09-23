@@ -1,0 +1,39 @@
+body {
+    background-color: #FFFFF0;
+    font-family:serif;
+    color: #800000;
+    max-width: 60em;
+    margin: auto;
+}
+
+div {
+    display: block;
+}
+
+.textbox {
+    border: 1px solid;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+    background: #fff;
+}
+
+.textbox-bar {
+    background: #fca;
+    color: #800;
+    position: relative;
+    padding-left: .5em;
+    line-height: 2em;
+}
+
+.textbox-bar > * {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.textbox-content {
+    font-size: 93%;
+    padding: .5em;
+    padding-top: .25em;
+    padding-bottom: 0;
+    line-height: 130%;
+}
