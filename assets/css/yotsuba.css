@@ -11,6 +11,16 @@ body {
     color: #fff !important;
 }
 
+.green-bar {
+    background-color: #9c6 !important;
+    color: #060 !important;
+}
+
+.blue-bar {
+    background-color: #59a !important;
+    color: #fff !important;
+}
+
 #page-body {
     margin-top: 1em;
     margin-left: 0.5em;
