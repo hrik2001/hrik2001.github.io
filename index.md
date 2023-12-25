@@ -26,7 +26,14 @@ _**This site is still WIP**_
 <div class="textbox">
   <p class="textbox-bar">Tech Blog</p>
   <div class="textbox-content" markdown="1">
-*In the works*
+  <ul>
+    {% assign tech_posts = site.posts | where_exp: "post", "post.categories contains 'tech'" | limit:5 %}
+    {% for post in tech_posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
   </div>
 </div>
 </div>
@@ -35,7 +42,19 @@ _**This site is still WIP**_
 <div class="textbox">
   <p class="textbox-bar">Miscellaneous Blog</p>
   <div class="textbox-content" markdown="1">
-*In the works*
+  <ul>
+    {% assign non_tech_posts = 0 %}
+    {% for post in site.posts %}
+      {% unless post.categories contains 'tech' %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% assign non_tech_posts = non_tech_posts | plus: 1 %}
+      {% endunless %}
+      {% break if non_tech_posts == 5 %}  <!-- Limit to 5 non-tech posts -->
+    {% endfor %}
+  </ul>
+  _In the works!_
   </div>
 </div>
 </div>
