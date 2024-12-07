@@ -7,18 +7,19 @@ title: Home
   <div class="textbox-content" markdown="1">
 Hey there, I'm **Shatabarto Bhattacharya**, but most folks just call me **"Rik"**.
 
-You will find me digging through things related to open source contributions, blockchain,
-deep learning, finance (especially derivative markets in decentralized finance) and anything that
-involves maths or physics.
+My day to day work involves working on **financial simulations** to help **quantify risks** for various
+DeFi protocols, writing **ETL pipelines** and contributing to various **FOSS projects**.
 
-An aspiring musician and a self proclaimed music connoisseur, listening to anything from
-the soothing rhythms of Bossa Nova to the unique melodies of Tuvan throat singing.
-Checkout my [listenbrainz profile](https://listenbrainz.org/user/riksucks/stats/?range=this_year)
-to see what I have been listening to lately!
+In my short career, I have donned multiple hats, some of that include:
+- Managing multiple specialized small engineering teams
+- Data Engineer (architecting data pipelines)
+- Data Science & Mathematics (Convex Optimization, Stochastic Calculus, Probability)
+- Smart Contract Development and Testing (Symbolic and Fuzz testing)
+- Backend Development (Mostly Python)
+- Frontend Development (Typescript and React/Next.js)
 
-_**This site is still WIP**_
 
-  </div>
+</div>
 </div>
 
 <div class="flex-container">
@@ -75,6 +76,10 @@ reply late, as it is hard for me to juggle college, work, projects and life :)
 
 * #### Are you down for gigs and consultancy work?<br />
 Yes! In fact I can help you with these:
+    - I can help you plan **tokenomics** and overall protocol economics along with **financial simulations**
+    to aid you in further decision making down the line. The scope of the work can also include doing 
+    analysis for **incentive distribution** and other methodologies to increase adoption/utilization.
+
     - I'm available for smart contract auditing gigs and bring hands-on experience from projects
     at _Timeswap Labs, open-source contributions and llamarisk (curveDAO)_. I specialize
     in **boosting code coverage** through
@@ -89,12 +94,6 @@ Yes! In fact I can help you with these:
 
    Let's collaborate to strengthen your ventures.
 
-* #### Why this theme? Are you trying to have a stereotypical minimalistic techbro website?
-This theme is a homage to my journey through tech. I first started tinkering with coding when
-I was in 8th grade, but delved deeper into it in high school thanks to strangers I befriended
-from imageboards. Even my first website with an active user base was an imageboard itself. Moreover,
-a small community formed around the website, which is why imageboards hold a very special
-place in my heart. And this theme is based on popular imageboard theme "Futaba".
 </div>
 </div>
 
