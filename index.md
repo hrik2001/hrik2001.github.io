@@ -7,8 +7,8 @@ title: Home
   <div class="textbox-content" markdown="1">
 Hey there, I'm **Shatabarto Bhattacharya**, but most folks just call me **"Rik"**.
 
-My day to day work involves working on **financial simulations** to help **quantify risks** for various
-DeFi protocols, writing **ETL pipelines** and contributing to various **FOSS projects**.
+I work as a Senior Quant Risk Analyst at Block Analitica. My day to day work involves working on **financial simulations** to help **quantify risks** for various
+DeFi protocols. And in my free time, I am usually running arbitrage bots and automating medium frequency trades to manage different hedging strategies.
 
 In my short career, I have donned multiple hats, some of that include:
 - Managing multiple specialized small engineering teams
@@ -70,7 +70,7 @@ In my short career, I have donned multiple hats, some of that include:
   <p class="textbox-bar blue-bar">Frequently Asked Questions</p>
 <div class="textbox-content" markdown="1">
 * #### How should I contact you? Or schedule a meeting with you?
-Feel free to contact me on [twitter](https://twitter.com/riksucks) or my email
+Feel free to contact me on twitter or telegram by the handle `riksucks` or my email
 rik61072 [at] gmail [dot] com. I am always down for a chat! Please don't mind if I happen to
 reply late, as it is hard for me to juggle college, work, projects and life :)
 
@@ -81,7 +81,7 @@ Yes! In fact I can help you with these:
     analysis for **incentive distribution** and other methodologies to increase adoption/utilization.
 
     - I'm available for smart contract auditing gigs and bring hands-on experience from projects
-    at _Timeswap Labs, open-source contributions and llamarisk (curveDAO)_. I specialize
+    at _Timeswap Labs and open-source contributions. I specialize
     in **boosting code coverage** through
     **fuzz and invariant tests**, assisting in internal **security audits**, conducting **formal verification**
     of your smart contracts against your whitepaper and **preparing codebases** for large
@@ -91,8 +91,6 @@ Yes! In fact I can help you with these:
     - I can also help you with writing ETL pipelines to consume on-chain data in your backend. I will help you
     write fault tolerant services that will consume and index on-chain events, and can help you set up infrastructure
     around that.
-
-   Let's collaborate to strengthen your ventures.
 
 </div>
 </div>
