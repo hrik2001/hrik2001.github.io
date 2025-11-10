@@ -7,7 +7,7 @@ title: Home
   <div class="textbox-content" markdown="1">
 Hey there, I'm **Shatabarto Bhattacharya**, but most folks just call me **"Rik"**.
 
-I work as a Senior Quant Risk Analyst at Block Analitica. My day to day work involves working on **financial simulations** to help **quantify risks** for various
+I work as a **Senior Quant Risk Analyst** at **Block Analitica**. My day to day work involves working on **financial simulations** to help **quantify risks** for various
 DeFi protocols. And in my free time, I am usually running arbitrage bots and automating medium frequency trades to manage different hedging strategies.
 
 In my short career, I have donned multiple hats, some of that include:
