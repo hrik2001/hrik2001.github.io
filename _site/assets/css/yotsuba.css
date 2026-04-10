@@ -1,0 +1,107 @@
+body {
+    background-color: #FFFFF0;
+    font-family:serif;
+    color: #800000;
+    max-width: 45em;
+    margin: auto;
+}
+
+.announce {
+    background-color: #800 !important;
+    color: #fff !important;
+}
+
+nav {
+    font-size: 0.9em;
+}
+
+.post-categories {
+    font-size: 0.7em;
+}
+
+.post-date {
+    font-size: 0.8em;
+}
+
+.green-bar {
+    background-color: #9c6 !important;
+    color: #060 !important;
+}
+
+.blue-bar {
+    background-color: #59a !important;
+    color: #fff !important;
+}
+
+#page-body {
+    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 1.3em;
+}
+
+div {
+    display: block;
+}
+
+.textbox {
+    border: 1px solid;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+    background: #fff;
+}
+
+.textbox-bar {
+    background: #fca;
+    color: #800;
+    position: relative;
+    padding-left: .5em;
+    line-height: 2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.textbox-bar > * {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.textbox-content {
+    font-size: 93%;
+    padding: .5em;
+    padding-top: .25em;
+    padding-bottom: 0;
+    line-height: 130%;
+}
+
+.mobile-box {
+    width: calc(50% - 0.5em);
+    margin-right: 0.5em;
+}
+
+.mobile-box:nth-child(2n) {
+    width: 50%;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .mobile-box {
+        width: 100%;
+        margin-right: 0;
+    }
+    .mobile-box:nth-child(2n) {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+.half-box {
+    width: 50%
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}

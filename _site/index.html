@@ -1,0 +1,282 @@
+<!doctype html>
+<link rel="stylesheet" type="text/css" href="/assets/css/yotsuba.css"></link>
+<link href="/assets/css/syntax_yotsuba.css" rel="stylesheet">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+    <div style="display: flex; justify-content: space-between; margin-left: 0.5em; margin-right: 0.5em;">
+        <h1 style="text-decoration: none; cursor: pointer; margin-left: 0.5em;" onclick="location.href='/';">rikb.in</h1>
+        <nav style="margin-top: auto; margin-bottom: auto; margin-right: 0.5em;">
+            [
+            <a href="https://twitter.com/riksucks">Twitter</a> /
+            <a href="https://github.com/hrik2001">Github</a> /
+            <a href="/assets/ResumeBlockchain.pdf" target="_blank">Resume</a> /
+            <a href="/blogs">Blogs</a>
+            ]
+        </nav>
+    </div>
+    <div style="margin-left: 0.5em; margin-right: 0.5em;">
+        <hr />
+    </div>
+</header>
+
+    <div id="page-body">
+      <div class="textbox">
+  <p class="textbox-bar announce">Who am I?</p>
+  <div class="textbox-content">
+    <p>Hey there, I’m <strong>Shatabarto Bhattacharya</strong>, but most folks just call me <strong>“Rik”</strong>.</p>
+
+    <p>I work as a <strong>Senior Quant Risk Analyst</strong> at <strong>Block Analitica</strong>. My day to day work involves working on <strong>financial simulations</strong> to help <strong>quantify risks</strong> for various
+DeFi protocols. And in my free time, I am usually running arbitrage bots and automating medium frequency trades to manage different hedging strategies.</p>
+
+    <p>In my short career, I have donned multiple hats, some of that include:</p>
+    <ul>
+      <li>Managing multiple specialized small engineering teams</li>
+      <li>Data Engineer (architecting data pipelines)</li>
+      <li>Data Science &amp; Mathematics (Convex Optimization, Stochastic Calculus, Probability)</li>
+      <li>Smart Contract Development and Testing (Symbolic and Fuzz testing)</li>
+      <li>Backend Development (Mostly Python)</li>
+      <li>Frontend Development (Typescript and React/Next.js)</li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="flex-container">
+<div class="mobile-box">
+<div class="textbox">
+  <p class="textbox-bar">Tech Blog</p>
+  <div class="textbox-content">
+        <ul>
+    
+    
+      <li>
+        <a href="/tech/finance/defi/2025/11/10/Modelling-Slippage/">Modelling Slippage in AMMs</a>
+      </li>
+    
+      <li>
+        <a href="/tech/2023/12/25/First-Blog/">First post of my blog!</a>
+      </li>
+    
+  </ul>
+      </div>
+</div>
+</div>
+
+<div class="mobile-box">
+<div class="textbox">
+  <p class="textbox-bar">Miscellaneous Blog</p>
+  <div class="textbox-content">
+        <ul>
+    
+    
+      
+      
+  </ul>
+        <p><em>In the works!</em></p>
+      </div>
+</div>
+</div>
+
+
+</div>
+
+<div class="textbox">
+  <p class="textbox-bar blue-bar">Frequently Asked Questions</p>
+<div class="textbox-content">
+    <ul>
+      <li>
+        <h4 id="how-should-i-contact-you-or-schedule-a-meeting-with-you">How should I contact you? Or schedule a meeting with you?</h4>
+        <p>Feel free to contact me on twitter or telegram by the handle <code class="language-plaintext highlighter-rouge">riksucks</code> or my email
+rik61072 [at] gmail [dot] com. I am always down for a chat! Please don’t mind if I happen to
+reply late, as it is hard for me to juggle college, work, projects and life :)</p>
+      </li>
+      <li>
+        <h4 id="are-you-down-for-gigs-and-consultancy-work">Are you down for gigs and consultancy work?<br /></h4>
+        <p>Yes! In fact I can help you with these:</p>
+        <ul>
+          <li>
+            <p>I can help you plan <strong>tokenomics</strong> and overall protocol economics along with <strong>financial simulations</strong>
+  to aid you in further decision making down the line. The scope of the work can also include doing 
+  analysis for <strong>incentive distribution</strong> and other methodologies to increase adoption/utilization.</p>
+          </li>
+          <li>
+            <p>I’m available for smart contract auditing gigs and bring hands-on experience from projects
+  at _Timeswap Labs and open-source contributions. I specialize
+  in <strong>boosting code coverage</strong> through
+  <strong>fuzz and invariant tests</strong>, assisting in internal <strong>security audits</strong>, conducting <strong>formal verification</strong>
+  of your smart contracts against your whitepaper and <strong>preparing codebases</strong> for large
+  security audits. My passion, dedication, and practical expertise make me an asset in ensuring the
+  security and reliability of your blockchain projects.</p>
+          </li>
+          <li>
+            <p>I can also help you with writing ETL pipelines to consume on-chain data in your backend. I will help you
+  write fault tolerant services that will consume and index on-chain events, and can help you set up infrastructure
+  around that.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<script>
+        // Get all the flex items
+        const flexItems = document.querySelectorAll('.flex-container .textbox');
+        console.log("Hi")
+
+        // Calculate the maximum height among them
+        let maxHeight = 0;
+        flexItems.forEach(item => {
+            const itemHeight = item.clientHeight;
+            if (itemHeight > maxHeight) {
+                maxHeight = itemHeight;
+            }
+        });
+        console.log(maxHeight)
+
+        // Set the same height for all flex items
+        flexItems.forEach(item => {
+            item.style.height = `${maxHeight}px`;
+        });
+</script>
+
+
+    </div>
+    <!--<div class="textbox">-->
+      <!--<div class="textbox-bar">-->
+        <!--<p>Hi</p>-->
+      <!--</div>-->
+      <!--<div class="textbox-content">-->
+        <!--<div class="textbox">
+  <p class="textbox-bar announce">Who am I?</p>
+  <div class="textbox-content">
+    <p>Hey there, I’m <strong>Shatabarto Bhattacharya</strong>, but most folks just call me <strong>“Rik”</strong>.</p>
+
+    <p>I work as a <strong>Senior Quant Risk Analyst</strong> at <strong>Block Analitica</strong>. My day to day work involves working on <strong>financial simulations</strong> to help <strong>quantify risks</strong> for various
+DeFi protocols. And in my free time, I am usually running arbitrage bots and automating medium frequency trades to manage different hedging strategies.</p>
+
+    <p>In my short career, I have donned multiple hats, some of that include:</p>
+    <ul>
+      <li>Managing multiple specialized small engineering teams</li>
+      <li>Data Engineer (architecting data pipelines)</li>
+      <li>Data Science &amp; Mathematics (Convex Optimization, Stochastic Calculus, Probability)</li>
+      <li>Smart Contract Development and Testing (Symbolic and Fuzz testing)</li>
+      <li>Backend Development (Mostly Python)</li>
+      <li>Frontend Development (Typescript and React/Next.js)</li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="flex-container">
+<div class="mobile-box">
+<div class="textbox">
+  <p class="textbox-bar">Tech Blog</p>
+  <div class="textbox-content">
+        <ul>
+    
+    
+      <li>
+        <a href="/tech/finance/defi/2025/11/10/Modelling-Slippage/">Modelling Slippage in AMMs</a>
+      </li>
+    
+      <li>
+        <a href="/tech/2023/12/25/First-Blog/">First post of my blog!</a>
+      </li>
+    
+  </ul>
+      </div>
+</div>
+</div>
+
+<div class="mobile-box">
+<div class="textbox">
+  <p class="textbox-bar">Miscellaneous Blog</p>
+  <div class="textbox-content">
+        <ul>
+    
+    
+      
+      
+  </ul>
+        <p><em>In the works!</em></p>
+      </div>
+</div>
+</div>
+
+
+</div>
+
+<div class="textbox">
+  <p class="textbox-bar blue-bar">Frequently Asked Questions</p>
+<div class="textbox-content">
+    <ul>
+      <li>
+        <h4 id="how-should-i-contact-you-or-schedule-a-meeting-with-you">How should I contact you? Or schedule a meeting with you?</h4>
+        <p>Feel free to contact me on twitter or telegram by the handle <code class="language-plaintext highlighter-rouge">riksucks</code> or my email
+rik61072 [at] gmail [dot] com. I am always down for a chat! Please don’t mind if I happen to
+reply late, as it is hard for me to juggle college, work, projects and life :)</p>
+      </li>
+      <li>
+        <h4 id="are-you-down-for-gigs-and-consultancy-work">Are you down for gigs and consultancy work?<br /></h4>
+        <p>Yes! In fact I can help you with these:</p>
+        <ul>
+          <li>
+            <p>I can help you plan <strong>tokenomics</strong> and overall protocol economics along with <strong>financial simulations</strong>
+  to aid you in further decision making down the line. The scope of the work can also include doing 
+  analysis for <strong>incentive distribution</strong> and other methodologies to increase adoption/utilization.</p>
+          </li>
+          <li>
+            <p>I’m available for smart contract auditing gigs and bring hands-on experience from projects
+  at _Timeswap Labs and open-source contributions. I specialize
+  in <strong>boosting code coverage</strong> through
+  <strong>fuzz and invariant tests</strong>, assisting in internal <strong>security audits</strong>, conducting <strong>formal verification</strong>
+  of your smart contracts against your whitepaper and <strong>preparing codebases</strong> for large
+  security audits. My passion, dedication, and practical expertise make me an asset in ensuring the
+  security and reliability of your blockchain projects.</p>
+          </li>
+          <li>
+            <p>I can also help you with writing ETL pipelines to consume on-chain data in your backend. I will help you
+  write fault tolerant services that will consume and index on-chain events, and can help you set up infrastructure
+  around that.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<script>
+        // Get all the flex items
+        const flexItems = document.querySelectorAll('.flex-container .textbox');
+        console.log("Hi")
+
+        // Calculate the maximum height among them
+        let maxHeight = 0;
+        flexItems.forEach(item => {
+            const itemHeight = item.clientHeight;
+            if (itemHeight > maxHeight) {
+                maxHeight = itemHeight;
+            }
+        });
+        console.log(maxHeight)
+
+        // Set the same height for all flex items
+        flexItems.forEach(item => {
+            item.style.height = `${maxHeight}px`;
+        });
+</script>
+
+-->
+      <!--</div>-->
+    <!--</div>-->
+  </body>
+</html>
