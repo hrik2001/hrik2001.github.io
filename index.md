@@ -81,7 +81,7 @@ Yes! In fact I can help you with these:
     analysis for **incentive distribution** and other methodologies to increase adoption/utilization.
 
     - I'm available for smart contract auditing gigs and bring hands-on experience from projects
-    at _Timeswap Labs and open-source contributions. I specialize
+    at _Timeswap Labs_ and open-source contributions. I specialize
     in **boosting code coverage** through
     **fuzz and invariant tests**, assisting in internal **security audits**, conducting **formal verification**
     of your smart contracts against your whitepaper and **preparing codebases** for large
